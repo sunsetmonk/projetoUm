@@ -1,0 +1,42 @@
+ul{
+    display:flex;
+    justify-content:space-between;
+    list-style: none;
+    align-items: center;
+    padding: 19px; ;
+}
+a{
+    color: white;
+    text-decoration:none
+}
+a:hover{ color: red;
+}
+nav{
+    padding-inline: 5%;
+}
+#fotoca{
+    text-align: center;
+    border-end-end-radius: 50%;
+}
+header img{
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+}
+body{
+    color:white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: medium;
+    padding: 5%;
+}
+section{color: #b8860B
+}
+@media(max-width: 500px){
+    .html ul{
+        font-size: 10px;
+    }
+    .nav {padding-left: 1px;}
+}
